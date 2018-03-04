@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.layout.js"></script> 
+       <script type="text/javascript" src="js/jquery.ui.all.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="titleCalc">Calculadora</div>
+        <div id ="formCalculadora">
+
+          <input type="text" id="inpCalc"/>
+            <div id="divNum">
+                <button class="btnCalc" onclick="main.agregarNum(9)">9</button>
+                <button class="btnCalc" onclick="main.agregarNum(8)">8</button>
+                <button class="btnCalc" onclick="main.agregarNum(7)">7</button>
+                <button class="btnCalc" id="btnDividir" onclick="main.agregarOper('/')">/</button>
+
+                <button class="btnCalc" onclick="main.agregarNum(6)">6</button>
+                <button class="btnCalc" onclick="main.agregarNum(5)">5</button>
+                <button class="btnCalc" onclick="main.agregarNum(4)">4</button>
+                <button class="btnCalc" id="btnMultiplicar" onclick="main.agregarOper('*')">*</button>
+
+                <button class="btnCalc" onclick="main.agregarNum(3)">3</button>
+                <button class="btnCalc" onclick="main.agregarNum(2)">2</button>
+                <button class="btnCalc" onclick="main.agregarNum(1)">1</button>
+                <button class="btnCalc" id="btnRestar" onclick="main.agregarOper('-')">-</button>
+
+                <button class="btnCalc" style="visibility:hidden">x</button>
+                <button class="btnCalc" onclick="main.agregarNum(0)">0</button>
+                <button class="btnCalc" id="btnC" onclick="main.reset()">C</button>
+                <button class="btnCalc" id="btnSumar" onclick="main.agregarOper('+')">+</button>
+                <button class="btnCalc" id="btnIgual" onclick="main.operar()">=</button>
+            </div>
+
+        </div>
+    </body>
+</html>

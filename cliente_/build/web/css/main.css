@@ -1,0 +1,43 @@
+.btnCalc{
+    width: 4em;
+    height: 4em;
+    background: #35464e;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#formCalculadora{
+    width: 260px;
+    height: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    background-color: #3A434F;
+    border-radius: 20px;
+}
+
+#divNum{
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnIgual{
+    width:95%;
+}
+#btnC{
+    background: #ff3d00cc;
+}
+
+#inpCalc{
+    width: 85%;
+    height: 15%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#titleCalc{
+    text-align: center;
+}
+
